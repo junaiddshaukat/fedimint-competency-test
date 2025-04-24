@@ -4,6 +4,9 @@ import wasm from 'vite-plugin-wasm'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+
+  base: '/fedimint-competency-test/',
+
   plugins: [react(), wasm()],
 
   // These worker settings are required
